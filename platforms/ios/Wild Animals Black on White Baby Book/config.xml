@@ -19,6 +19,7 @@
     <preference name="AllowInlineMediaPlayback" value="false" />
     <preference name="OpenAllWhitelistURLsInWebView" value="false" />
     <preference name="BackupWebStorage" value="cloud" />
+    <preference name="target-device" value="universal" />
     <name>Wild Animals Black on White Baby Book</name>
     <description>
         A high contrast white/black baby book to get your baby's eyes and brain jumpstarted!
@@ -27,9 +28,10 @@
         Jason Prothero
     </author>
     <feature name="http://api.phonegap.com/1.0/device" />
+    <preference name="phonegap-version" value="2.9.0" />
     <preference name="permissions" value="none" />
     <preference name="orientation" value="landscape" />
-    <preference name="target-device" value="universal" />
+    <preference name="target-device" value="handset" />
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
     <preference name="prerendered-icon" value="true" />
@@ -48,8 +50,6 @@
     <icon gap:density="mdpi" gap:platform="android" src="res/icon/android/icon-48-mdpi.png" />
     <icon gap:density="hdpi" gap:platform="android" src="res/icon/android/icon-72-hdpi.png" />
     <icon gap:density="xhdpi" gap:platform="android" src="res/icon/android/icon-96-xhdpi.png" />
-    <icon gap:platform="blackberry" src="res/icon/blackberry/icon-80.png" />
-    <icon gap:platform="blackberry" gap:state="hover" src="res/icon/blackberry/icon-80.png" />
     <icon gap:platform="ios" height="57" src="res/icon/ios/icon-57.png" width="57" />
     <icon gap:platform="ios" height="72" src="res/icon/ios/icon-72.png" width="72" />
     <icon gap:platform="ios" height="114" src="res/icon/ios/icon-57-2x.png" width="114" />
@@ -57,7 +57,6 @@
     <icon gap:platform="ios" height="120" src="res/icon/ios/icon-120.png" width="120" />
     <icon gap:platform="ios" height="152" src="res/icon/ios/icon-152.png" width="152" />
     <icon gap:platform="ios" height="76" src="res/icon/ios/icon-76.png" width="76" />
-    <icon gap:platform="webos" src="res/icon/webos/icon-64.png" />
     <icon gap:platform="winphone" src="res/icon/windows-phone/icon-48.png" />
     <icon gap:platform="winphone" gap:role="background" src="res/icon/windows-phone/icon-173.png" />
     <gap:splash src="splash.png" />
@@ -65,7 +64,6 @@
     <gap:splash gap:density="mdpi" gap:platform="android" src="res/screen/android/screen-mdpi-portrait.png" />
     <gap:splash gap:density="hdpi" gap:platform="android" src="res/screen/android/screen-hdpi-portrait.png" />
     <gap:splash gap:density="xhdpi" gap:platform="android" src="res/screen/android/screen-xhdpi-portrait.png" />
-    <gap:splash gap:platform="blackberry" src="res/screen/blackberry/screen-225.png" />
     <gap:splash gap:platform="ios" height="480" src="res/screen/ios/screen-iphone-portrait.png" width="320" />
     <gap:splash gap:platform="ios" height="960" src="res/screen/ios/screen-iphone-portrait-2x.png" width="640" />
     <gap:splash gap:platform="ios" height="640" src="res/screen/ios/screen-iphone-landscape-2x.png" width="960" />
